@@ -413,7 +413,7 @@ public class EventListener implements GLEventListener {
             if (numPlacar == 200 && nivel == 1) {
                 iniciaFase2();
             }
-            // Insere o Polígono e a colisão no nível 2
+            //Insere o Polígono e a colisão no nível 2
             if (nivel == 2) {
                 texturaObstaculo.configurar(gl);
                 iluminacaoAmbiente(gl);
